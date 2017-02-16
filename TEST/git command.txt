@@ -1,0 +1,15 @@
+git init
+git config --global user.name [name] ex.git config --global user.name anusak
+git config --global user.email[email] ex.git config --global user.email rukiajung@gmail.com
+git status
+git log
+git add .
+git add *.txt
+git add index.html
+git commit -m "[your massage]" ex.git commit -m "new file for testing"
+git diff head เพื่อเช็คว่าเราเปลี่ยนแปลงโค๊ดตรงไหนไปบ้าง
+git branch "branch name"สาขา
+git checkout "branch name" การเปลี่ยน branch เช่น ตอนนี้อยู่ branch master ใช้คำสั่ง git checkout "demo2" จะย้ายไปอยู่ branch demo2 ทันที
+git chechout -b "branch name" สร้าง branch แล้วสวิทไปที่ branch ทันที
+git checkout เรียกไฟล์ที่ลบกลับมา
+git merge
